@@ -11,4 +11,17 @@ fn main() {
 
     println!("Hello, world!");
 
+    let mut y = 7;
+    println!("The value of y is: {}", y);
+    y = 8;
+    println!("The value of y is: {}", y);
+
+
+    // 문자를 unsigned int 로 변환
+    let guess: u32 = "42".parse().expect("Not a number!");
+
+    
+
+
+
 }
